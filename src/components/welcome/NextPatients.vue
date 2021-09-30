@@ -2,11 +2,11 @@
     <div class="card">
         <div class="patient_container">
             <div class="d-flex justify-content-between">
-            <div>
-                <h4 class="mr-auto">Your next patients</h4>
-                <hr>
-            </div>
-            <h6 class="mt-1">View All <i class="fa fa-arrow-right small_icons" aria-hidden="true"></i></h6>
+              <div>
+                  <h4 class="mr-auto">Your next patients</h4>
+                  <hr>
+              </div>
+              <h6 class="mt-1">View All <i class="fa fa-arrow-right small_icons" aria-hidden="true"></i></h6>
             </div>
 
             <div class="patient_details" v-for="item in patients_appointments" :key="item.id">
@@ -93,5 +93,12 @@ export default {
         }
       }
     }
+  }
+  h6{
+    color: #1565D8;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: Inter;
+    cursor: pointer;
   }
 </style>

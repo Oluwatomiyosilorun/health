@@ -11,7 +11,7 @@
                     <p class="box_title">Total Patients</p>
                 </div>
                 <div class="description">
-                    <p><i class="fa fa-arrow-down" aria-hidden="true"></i> 5% less than last month</p>
+                    <p><i class="fa fa-arrow-down down" aria-hidden="true"></i> 5% less than last month</p>
                 </div>
             </div>
 
@@ -25,7 +25,7 @@
                     <p class="box_title">Appointments</p>
                 </div>
                 <div class="description">
-                    <p><i class="fa fa-arrow-up" aria-hidden="true"></i> 15% more than yesterday</p>
+                    <p><i class="fa fa-arrow-up up" aria-hidden="true"></i> 15% more than yesterday</p>
                 </div>
             </div>
 
@@ -39,7 +39,7 @@
                     <p class="box_title">Waiting Room</p>
                 </div>
                 <div class="description">
-                    <p><i class="fa fa-arrow-up" aria-hidden="true"></i> 35% less than yesterday</p>
+                    <p><i class="fa fa-arrow-up up" aria-hidden="true"></i> 35% less than yesterday</p>
                 </div>
             </div>
         </div>
@@ -107,6 +107,12 @@ export default {
             }
           }
         }
+      }
+      .down{
+          color:#FF8080;
+      }
+      .up{
+        color: #06A77D;
       }
     }
 </style>

@@ -101,18 +101,18 @@ export default {
   }
 
   .dayy{
-       p{
-    color: #8692A6;
-    font-weight: normal;
-    font-family: Inter;
-    font-size: 14px;
-    line-height: 17px;
-    select{
-    border: none;
-    outline: none;
-    box-shadow: none;
-    color: #699ae6 !important;
-  }
-  }
+    p{
+      color: #8692A6;
+      font-weight: normal;
+      font-family: Inter;
+      font-size: 14px;
+      line-height: 17px;
+      select{
+        border: none;
+        outline: none;
+        box-shadow: none;
+        color: #699ae6 !important;
+      }
+    }
   }
 </style>

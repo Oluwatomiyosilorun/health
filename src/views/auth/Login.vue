@@ -45,7 +45,6 @@ export default {
                 console.log(res);
                 if ((this.form.email == 'uchenna@yopmail.com') && (this.form.password == 'healthlite')) {
                     this.$router.push({path: "/app"})
-                    alert('Welcome my nigga')
                 }else{
                     alert('Wrong email and password. Please try again')
                     this.$router.push({path: "/"})

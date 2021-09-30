@@ -6,7 +6,10 @@
                 <h4 class="mr-auto">Appointment Statistics</h4>
                 <hr>
             </div>
-            <h6 class="mt-1">Show <i class="fa fa-arrow-right small_icons" aria-hidden="true"></i></h6>
+            <p>Show by<select>
+                        <option>by Month</option>
+                    </select>
+                </p>
             </div>
             <bar-chart></bar-chart>
         </div>
@@ -24,5 +27,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+    p{
+      color: #8692A6;
+      font-weight: normal;
+      font-family: Inter;
+      font-size: 14px;
+      line-height: 17px;
+      select{
+        border: none;
+        outline: none;
+        box-shadow: none;
+        color: #699ae6 !important;
+      }
+    }
 </style>
