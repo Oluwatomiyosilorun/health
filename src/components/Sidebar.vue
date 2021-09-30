@@ -83,6 +83,12 @@
                         <span>Settings</span>
                     </div>
                 </router-link>
+                <router-link to="/app/logout" active-class="active" tag="button" exact class="side-btn">
+                    <div class="link-container">
+                        <i class="fa fa-sign-out m-0 logout"></i>
+                        <span>Logout</span>
+                    </div>
+                </router-link>
 
             </div>
         </div>
@@ -164,7 +170,12 @@ export default {
             position: relative;
             margin-top: 50%;
         }
+        .logout{
+            font-size: 24px !important;
+            vertical-align:top !important;
         }
+        }
+
     }
 
 </style>

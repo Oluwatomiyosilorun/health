@@ -42,9 +42,14 @@ const routes = [
       {
         path: 'settings',
         component: () => import('../views/Settings.vue')
+      },
+      {
+        path: 'logout',
+        component: () => import('../views/Logout.vue')
       }
     ]
-  }
+  },
+
 ];
 
 

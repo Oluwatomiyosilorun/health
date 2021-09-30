@@ -44,6 +44,7 @@ export default {
             .then((res)=>{
                 console.log(res);
                 if ((this.form.email == 'uchenna@yopmail.com') && (this.form.password == 'healthlite')) {
+                    this.$cookie.set("user", "uchenna@yopmail.com" , "")
                     this.$router.push({path: "/app"})
                 }else{
                     alert('Wrong email and password. Please try again')
